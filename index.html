@@ -1,141 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint Challenge - Anasayfa</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b12ffad4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-	<meta charset="utf-8">
+  <body>
+    <div>
+      <!-- header -->
+      <header>
+        <h1><a href="index.html">ERGİNEER BAR VE MANGAL</a></h1>
+        <nav>
+          <div class="menu">
+            <a href="./menu.html">Menü</a>
+            <a href="./reservation.html">Rezervasyonlar</a>
+            <a href="./specials.html">Özel Teklifler</a>
+            <a href="./contact.html">İletişim</a>
+          </div>
+          <div>
+            <div class="social">
+              <a href="https://www.facebook.com/"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
 
-	<title>Sprint Challenge - Anasayfa</title>
+        <!-- nav -->
+      </header>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
+      <!-- gallery section -->
+      <section class="gallery">
+        <div>
+          <h2>YEMEKLERİMİZ</h2>
+          <img src="img/food-avocadotoast.jpg" alt="food avocadotoast" />
+          <img src="img/food-burger.jpg" alt="food burger" />
+          <img src="img/food-poutine.jpg" alt="food poutine" />
+          <img src="img/food-ribs.jpg" alt="food ribs" />
+          <img src="img/food-sandwich.jpg" alt="food sandwich" />
+          <img src="img/food-sausage.jpg" alt="food sausage" />
+          <img src="img/food-steak.jpg" alt="food steak" />
+          <img src="img/food-tacos.jpg" alt="food tacos" />
+          <img src="img/food-wings.jpg" alt="food wings" />
+        </div>
+      </section>
 
-<body>
-	<div>
-		<!-- header -->
-		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
-			</div>
-		</header>
+      <!-- about section -->
+      <section class="about">
+        <div class="about-container">
+          <h2>HAKKIMIZDA</h2>
 
-		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>YEMEKLERİMİZ</h2>
+          <div id="cooks" class="pic"></div>
 
-				img/food-avocadotoast.jpg
+          <div class="text">
+            <h3>Güzel Yemekler, Güzel İnsanlar</h3>
+            <p>
+              Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short
+              ribs tail dolore, fatback in tempor meatloaf pig sunt porchetta
+              beef. Ad hamburger pig veniam, andouille exercitation cillum
+              eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta
+              frankfurter sed, est t-bone porchetta capicola id tri-tip cillum
+              cow leberkas do minim. Sausage ea velit boudin laboris dolore
+              short loin corned beef commodo jowl beef dolor tempor. Dolor culpa
+              enim in meatloaf, ham mollit shankle duis chicken dolore andouille
+              do tenderloin qui.
+            </p>
+          </div>
 
-				img/food-burger.jpg
+          <div id="bartender" class="pic"></div>
+        </div>
+      </section>
 
-				img/food-poutine.jpg
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				img/food-ribs.jpg
+      <!-- contact section -->
+      <section class="contact">
+        <div class="contact-container">
+          <h2>BİZE ULAŞIN</h2>
 
-				img/food-sandwich.jpg
+          <div class="info">
+            <div class="address">
+              <h3>Adres</h3>
 
-				img/food-sausage.jpg
+              <address>
+                <p>100. sokak</p>
+                <p>Oran, Ankara</p>
+              </address>
+            </div>
 
-				img/food-steak.jpg
+            <div class="hours">
+              <h3>Saatler</h3>
 
-				img/food-tacos.jpg
+              <div>
+                <p>Pazartesiden Cumaya:</p>
+                <p>10:00 - 22:00</p>
+                <p>Friday and Saturday:</p>
+                <p>10:00 - 02:00</p>
+              </div>
+            </div>
 
-				img/food-wings.jpg
-			</div>
-		</section>
+            <div class="contacts">
+              <h3>İletişim</h3>
 
-		<!-- spacer -->
-		<div class="spacer"></div>
+              <div>
+                <a id="phone" href="tel:999-999-9999">999-999-9999</a>
+                <a id="email" href="mailto:restoran@boomer.com"
+                  >restoran@ergineer.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<!-- about section -->
-		<section class="about">
-			<div class="about-container">
-				<h2>HAKKIMIZDA</h2>
+      <!-- spacer -->
+      <div class="spacer-sm"></div>
 
-				<div id="cooks" class="pic">
-				</div>
+      <!-- footer -->
+      <footer>
+        <form>
+          <label for="email">Mail listemize katılın!</label><br />
+          <input
+            type="email"
+            id="fname"
+            placeholder="E-posta Adresi"
+            name="fname"
+            value=""
+          />
+          <button type="submit">Üye Ol</button>
+        </form>
+        <!-- email signup -->
 
-				<div class="text">
-					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
-						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
-						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
-						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
-				</div>
+        <!-- nav -->
 
-				<div id="bartender" class="pic">
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer"></div>
-
-		<!-- contact section -->
-		<section class="contact">
-			<div class="contact-container">
-				<h2>BİZE ULAŞIN</h2>
-
-				<div class="info">
-					<div class="address">
-						<h3>Adres</h3>
-
-						<address>
-							<p>100. sokak</p>
-							<p>Oran, Ankara</p>
-						</address>
-					</div>
-
-					<div class="hours">
-						<h3>Saatler</h3>
-
-						<div>
-							<p>Pazartesiden Cumaya:</p>
-							<p>10:00 - 22:00</p>
-							<p>Friday and Saturday:</p>
-							<p>10:00 - 02:00</p>
-						</div>
-					</div>
-
-					<div class="contacts">
-						<h3>İletişim</h3>
-
-						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer-sm"></div>
-
-		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
-		</footer>
-	</div>
-</body>
-
+        <nav>
+          <div class="menu">
+            <a href="./menu.html">Menü</a>
+            <a href="./reservation.html">Rezervasyonlar</a>
+            <a href="./specials.html">Özel Teklifler</a>
+            <a href="./contact.html">İletişim</a>
+          </div>
+        </nav>
+        <!-- copyright -->
+        ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+      </footer>
+    </div>
+  </body>
 </html>
